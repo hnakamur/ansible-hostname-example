@@ -1,0 +1,4 @@
+- hosts: ubuntu
+  tasks:
+    - hostname: name=foo
+      become: yes
